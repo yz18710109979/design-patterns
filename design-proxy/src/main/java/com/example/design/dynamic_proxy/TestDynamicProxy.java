@@ -4,6 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -24,7 +25,8 @@ public class TestDynamicProxy {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
-		final List<String> list = new ArrayList<String>();
+		
+		final List<String> list = new LinkedList<String>();
 		
 		List<String> proxyList = (List<String>) Proxy.newProxyInstance(
 				list.getClass().getClassLoader(), 
