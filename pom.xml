@@ -7,5 +7,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>design-singleton</module>
+    <module>design-proxy</module>
   </modules>
 </project>
