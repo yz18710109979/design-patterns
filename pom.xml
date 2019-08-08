@@ -8,5 +8,6 @@
   <modules>
     <module>design-singleton</module>
     <module>design-proxy</module>
+    <module>design-factory</module>
   </modules>
 </project>
