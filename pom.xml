@@ -9,5 +9,6 @@
     <module>design-singleton</module>
     <module>design-proxy</module>
     <module>design-factory</module>
+    <module>design-jdk_8_sources</module>
   </modules>
 </project>
